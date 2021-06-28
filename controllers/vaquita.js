@@ -13,12 +13,7 @@ exports.VaquitaPost = async (req, res, next )  => {
               T : "U "
           }))
       
-    //Aqui es para que se muestre en consola
-       console.log(cowsay.say({
-        text : msg,
-        e : "oO",
-        T : "U "
-    }));
+  
     } catch (error) {
         console.log(error);
         //el next es por si hay un error pase ala siguiente linea de ejecucion 
@@ -37,15 +32,6 @@ exports.VaquitaGet = async (req, res, next) => {
                 e : "oO",
                 T : "U "
             }))
-    //Aqui es para que se muestre en consola
-       console.log(cowsay.say({
-        text : "Hola Hola",
-        e : "oO",
-        T : "U "
-    }));
-            
-            
-
           
     } catch (error) {
         console.log(error);
