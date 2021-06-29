@@ -1,10 +1,10 @@
 {
-  "name": "Api de vaca",
+  "name": "Api-Vaca",
   "version": "1.0.0",
   "description": "Hablando con una vaca",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./index.js"
+   "start":"node ./index.js"
   },
   "author": "Juan De la torre",
   "license": "ISC",

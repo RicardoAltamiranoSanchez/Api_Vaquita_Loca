@@ -17,5 +17,6 @@ app.use('/', routes())
 
 // puerto y arrancar el servidor
 app.listen(4000, () => {
-    console.log('Servidor funcionando')
+    console.log('Servidor funcionando');
+    
 })
