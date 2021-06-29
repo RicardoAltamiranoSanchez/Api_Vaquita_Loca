@@ -5,7 +5,9 @@ const bodyParser = require('body-parser');
 // crear el servidor
 const app = express();
 
+
 // habilitar el body-parser
+app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
