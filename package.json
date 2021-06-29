@@ -1,7 +1,7 @@
 {
-  "name": "fullstack-api",
+  "name": "Api de vaca",
   "version": "1.0.0",
-  "description": "Backend en Mongo y Express",
+  "description": "Hablando con una vaca",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./index.js"
