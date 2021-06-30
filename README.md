@@ -2,7 +2,7 @@
 ## Se debe instalar nodemon directamente en el cmd con modo administrador
 
 ## Creando la imagen para docker
-
+## Al final se pone un punto
 docker build -t "nombre de la imagen que quieres que tenga" .
 
 ## Te debe de dar un id cuando este listo
